@@ -1,0 +1,112 @@
+[21-Jun-2024 11:21:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:339
+Stack trace:
+#0 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\jerem\Local Sites\test\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\jerem\Local Sites\test\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\jerem\Local Sites\test\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\jerem\Local Sites\test\app\public\index.php(17): require('C:\\Users\\jerem\\...')
+#12 {main}
+  thrown in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 339
+[21-Jun-2024 11:26:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:339
+Stack trace:
+#0 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\jerem\Local Sites\test\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\jerem\Local Sites\test\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\jerem\Local Sites\test\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\jerem\Local Sites\test\app\public\index.php(17): require('C:\\Users\\jerem\\...')
+#12 {main}
+  thrown in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 339
+[21-Jun-2024 11:35:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:339
+Stack trace:
+#0 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\jerem\Local Sites\test\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\jerem\Local Sites\test\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\jerem\Local Sites\test\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\jerem\Local Sites\test\app\public\index.php(17): require('C:\\Users\\jerem\\...')
+#12 {main}
+  thrown in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 339
+[21-Jun-2024 11:43:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:339
+Stack trace:
+#0 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\jerem\Local Sites\test\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\jerem\Local Sites\test\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\jerem\Local Sites\test\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\jerem\Local Sites\test\app\public\index.php(17): require('C:\\Users\\jerem\\...')
+#12 {main}
+  thrown in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 339
+[21-Jun-2024 11:56:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:339
+Stack trace:
+#0 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\jerem\Local Sites\test\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\jerem\Local Sites\test\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\jerem\Local Sites\test\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\jerem\Local Sites\test\app\public\index.php(17): require('C:\\Users\\jerem\\...')
+#12 {main}
+  thrown in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 339
+[21-Jun-2024 11:57:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:339
+Stack trace:
+#0 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\jerem\Local Sites\test\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\jerem\Local Sites\test\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\jerem\Local Sites\test\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\jerem\Local Sites\test\app\public\index.php(17): require('C:\\Users\\jerem\\...')
+#12 {main}
+  thrown in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 339
+[21-Jun-2024 11:58:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:339
+Stack trace:
+#0 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\jerem\Local Sites\test\app\public\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\jerem\Local Sites\test\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\jerem\Local Sites\test\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\jerem\Local Sites\test\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\jerem\Local Sites\test\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\jerem\Local Sites\test\app\public\index.php(17): require('C:\\Users\\jerem\\...')
+#12 {main}
+  thrown in C:\Users\jerem\Local Sites\test\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 339
